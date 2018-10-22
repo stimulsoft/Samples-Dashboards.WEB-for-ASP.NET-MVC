@@ -1,0 +1,16 @@
+﻿@using Stimulsoft.Report.Mvc;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Show Dashboard in the Viewer</h2>
+
+@Html.Stimulsoft().StiMvcViewer(new StiMvcViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    }
+})

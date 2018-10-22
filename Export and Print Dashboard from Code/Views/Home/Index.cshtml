@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Print to PDF</h2>
+        <p>@Html.ActionLink("Print", "PrintPdf")</p>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <h2>Export to PDF</h2>
+        <p>@Html.ActionLink("Export", "ExportPdf")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Export to Excel</h2>
+        <p>@Html.ActionLink("Export", "ExportExcel")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Export to Image</h2>
+        <p>@Html.ActionLink("Export", "ExportImage")</p>
+    </div>
+</div>
