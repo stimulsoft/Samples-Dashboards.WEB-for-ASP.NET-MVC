@@ -11,8 +11,8 @@
         <tr>
             <td class="menu">
                 <h3>Dashboards Demo</h3>
-                <div style="height: 2px; border-top: dashed 1px #c8c8c8; padding:3px;"></div>
-                <div style="overflow: auto; position: absolute; top: 37px; bottom: 50px; left: 0px; width: 270px;">
+                <div class="separator"></div>
+                <div class="main">
                     @if (@ViewBag.FileNames != null)
                     {
                         foreach (string fileName in @ViewBag.FileNames)
@@ -32,7 +32,7 @@
         </tr>
         <tr>
             <td class="link">
-                <div style="height: 2px; border-top: dashed 1px #c8c8c8; padding:3px;"></div>
+                <div class="separator"></div>
                 <a href="https://www.stimulsoft.com/" target="_blank"><img class="link" alt="www.stimulsoft.com" border="0" src="/Images/hyperlink.png" /></a>
             </td>
         </tr>
