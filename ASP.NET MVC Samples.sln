@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Demo", "Web Demo\Web Demo.csproj", "{1445C8E3-D7A6-41F9-92C0-9623172AE01B}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Dashboard in the Viewer", "Show Dashboard in the Viewer\Show Dashboard in the Viewer.csproj", "{2C9A340D-6998-4648-9119-FE1BFB3C1123}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edit Dashboard in the Designer", "Edit Dashboard in the Designer\Edit Dashboard in the Designer.csproj", "{0421C152-F662-4756-ADA2-A45DF206E7D3}"
@@ -13,14 +15,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Register Data for Dashboard
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime Dashboard Creation", "Runtime Dashboard Creation\Runtime Dashboard Creation.csproj", "{B223B19F-D81C-4AE8-9D96-8F33B93C2544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Demo", "Web Demo\Web Demo.csproj", "{1445C8E3-D7A6-41F9-92C0-9623172AE01B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1445C8E3-D7A6-41F9-92C0-9623172AE01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1445C8E3-D7A6-41F9-92C0-9623172AE01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1445C8E3-D7A6-41F9-92C0-9623172AE01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1445C8E3-D7A6-41F9-92C0-9623172AE01B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C9A340D-6998-4648-9119-FE1BFB3C1123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C9A340D-6998-4648-9119-FE1BFB3C1123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C9A340D-6998-4648-9119-FE1BFB3C1123}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,10 +45,6 @@ Global
 		{B223B19F-D81C-4AE8-9D96-8F33B93C2544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B223B19F-D81C-4AE8-9D96-8F33B93C2544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B223B19F-D81C-4AE8-9D96-8F33B93C2544}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1445C8E3-D7A6-41F9-92C0-9623172AE01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1445C8E3-D7A6-41F9-92C0-9623172AE01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1445C8E3-D7A6-41F9-92C0-9623172AE01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1445C8E3-D7A6-41F9-92C0-9623172AE01B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
