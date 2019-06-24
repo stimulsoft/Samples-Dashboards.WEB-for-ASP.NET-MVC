@@ -1,10 +1,10 @@
 {
-  "ReportVersion": "2018.3.1.0",
-  "ReportGuid": "57728d8e9184469fa9b0d85c646a1fd8",
+  "ReportVersion": "2019.1.1.0",
+  "ReportGuid": "839903adff70410a912a50b4b7c985c9",
   "ReportName": "DashboardOnlineStoreSales",
   "ReportAlias": "DashboardOnlineStoreSales",
   "ReportCreated": "/Date(1531223785358+0300)/",
-  "ReportChanged": "/Date(1539007246920+0300)/",
+  "ReportChanged": "/Date(1548230847127+0300)/",
   "EngineVersion": "EngineV2",
   "CalculationMode": "Interpretation",
   "ReportUnit": "Inches",
@@ -160,19 +160,17 @@
             "Bottom": 0.0
           },
           "Border": ";;;;",
-          "Text": "<font face=\"Segoe UI\" size=\"36\"><text-align=\"Center\">Online Store Sales</text-align></font>"
+          "Text": "<font face=\"Arial\" size=\"36\"><text-align=\"Center\">Online Store Sales</text-align></font>",
+          "Title": {
+            "Text": "Text",
+            "Visible": false
+          }
         },
         "1": {
           "Ident": "StiChartElement",
           "Name": "Chart1",
           "Guid": "c58680ce4147410eaeeef95ce624060c",
           "ClientRectangle": "0,80,680,520",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "Values": {
             "0": {
@@ -194,11 +192,52 @@
               "Label": "Year ID"
             }
           },
+          "TopN": {
+            "Mode": "None"
+          },
           "Title": {
             "Text": "Chart",
-            "Visible": true,
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Visible": false
+          },
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
+          },
+          "ArgumentFormat": {
+            "Ident": "StiGeneralFormatService"
+          },
+          "ValueFormat": {
+            "Ident": "StiCurrencyFormatService",
+            "NegativePattern": 0,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits",
+            "PositivePattern": 0
+          },
+          "XAxis": {
+            "Labels": {
+              "TextAlignment": "Right"
+            }
+          },
+          "YAxis": {
+            "Labels": {
+              "TextAlignment": "Right"
+            }
+          },
+          "Area": {
+            "GridLinesHor": {
+              "Color": "Transparent",
+              "Visible": true
+            },
+            "GridLinesVert": {
+              "Color": "Transparent"
+            },
+            "InterlacingHor": {
+              "Color": "Transparent"
+            },
+            "InterlacingVert": {
+              "Color": "Transparent"
+            }
           }
         },
         "2": {
@@ -206,20 +245,24 @@
           "Name": "Text3",
           "Guid": "43d801bf9c9d442983b1c860d1fbd477",
           "ClientRectangle": "680,80,520,40",
+          "Padding": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
           "Border": ";;;;",
-          "Text": "<font face=\"Arial\" size=\"24\"><text-align=\"Center\">Devices from which orders were placed</text-align></font>"
+          "Text": "<font face=\"Arial\" size=\"22\"><text-align=\"Center\">Devices from which orders were placed</text-align></font>",
+          "Title": {
+            "Text": "Text",
+            "Visible": false
+          }
         },
         "3": {
           "Ident": "StiComboBoxElement",
           "Name": "ComboBox1",
           "Guid": "132b17a6fb0048829e2b2f5100e32e7d",
           "ClientRectangle": "0,40,1200,40",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "SelectionMode": "Multi",
           "NameMeter": {
@@ -238,12 +281,6 @@
           "Name": "Gauge1",
           "Guid": "4407575c9dd84a18999269be8b25bb99",
           "ClientRectangle": "680,440,520,160",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "Value": {
             "Ident": "ValueGaugeMeter",
@@ -256,24 +293,18 @@
             "Label": "Year"
           },
           "Title": {
-            "Text": "PC",
-            "Visible": true,
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Text": "PC"
           },
-          "Font": ";13;;"
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
+          }
         },
         "5": {
           "Ident": "StiGaugeElement",
           "Name": "Gauge2",
           "Guid": "973710aeebc84dcfa79265ffef1ecf9f",
           "ClientRectangle": "680,280,520,160",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "Value": {
             "Ident": "ValueGaugeMeter",
@@ -286,24 +317,18 @@
             "Label": "Year"
           },
           "Title": {
-            "Text": "Phone",
-            "Visible": true,
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Text": "Phone"
           },
-          "Font": ";13;;"
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
+          }
         },
         "6": {
           "Ident": "StiGaugeElement",
           "Name": "Gauge3",
           "Guid": "e6a9605d0170492aa7d684204dab6e03",
           "ClientRectangle": "680,120,520,160",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "Value": {
             "Ident": "ValueGaugeMeter",
@@ -316,12 +341,12 @@
             "Label": "Year"
           },
           "Title": {
-            "Text": "Tablet",
-            "Visible": true,
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Text": "Tablet"
           },
-          "Font": ";13;;"
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
+          }
         }
       },
       "Border": ";;2;;;;;solid:Black"

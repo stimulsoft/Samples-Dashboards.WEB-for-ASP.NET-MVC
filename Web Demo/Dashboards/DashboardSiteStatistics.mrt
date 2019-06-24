@@ -1,10 +1,10 @@
 {
-  "ReportVersion": "2018.3.1.0",
-  "ReportGuid": "e5b205def5264b58ae6ea5aa85934b9d",
+  "ReportVersion": "2019.2.3.0",
+  "ReportGuid": "3fa588fe3a3e49d38365dd4a50cc8f26",
   "ReportName": "DashboardSiteStatistics",
   "ReportAlias": "DashboardSiteStatistics",
   "ReportCreated": "/Date(1531223785358+0300)/",
-  "ReportChanged": "/Date(1539007814683+0300)/",
+  "ReportChanged": "/Date(1556307524284+0300)/",
   "EngineVersion": "EngineV2",
   "CalculationMode": "Interpretation",
   "ReportUnit": "Inches",
@@ -33,6 +33,7 @@
         "Ident": "StiDataTableSource",
         "Name": "Dwell and Repeats",
         "Alias": "Dwell and Repeats",
+        "Key": "f536211a0c9c415b84c179ef521618cd",
         "Columns": {
           "0": {
             "Name": "DateID",
@@ -90,6 +91,7 @@
         "Ident": "StiDataTableSource",
         "Name": "Visitors",
         "Alias": "Visitors",
+        "Key": "78d1f972ba5f430fadedbcfb53932f97",
         "Columns": {
           "0": {
             "Name": "DateID",
@@ -168,25 +170,23 @@
             "Bottom": 0.0
           },
           "Padding": {
-            "Left": 5.0,
+            "Left": 0.0,
             "Top": 0.0,
             "Right": 0.0,
             "Bottom": 0.0
           },
           "Border": ";;;;",
-          "Text": "<font face=\"Arial\" size=\"36\"><text-align=\"Left\"><font-color=\"#DDDDDD\">Count & Conversion</font-color></text-align></font>"
+          "Text": "<font face=\"Arial\" size=\"36\"><text-align=\"Left\"><font-color=\"#DDDDDD\">Count & Conversion</font-color></text-align></font>",
+          "Title": {
+            "Text": "Text",
+            "Visible": false
+          }
         },
         "1": {
           "Ident": "StiChartElement",
           "Name": "Chart2",
           "Guid": "1fa50c3a2cee4d4ebe96479586b86266",
           "ClientRectangle": "600,200,600,400",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "TransformSorts": {
             "0": {
@@ -227,10 +227,48 @@
               "Label": "Date"
             }
           },
+          "TopN": {
+            "Mode": "None"
+          },
+          "DashboardInteraction": {
+            "Ident": "Chart",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab",
+            "AllowUserDrillDown": false
+          },
           "Title": {
             "Text": "Dwell",
-            "Visible": true,
-            "Font": "Segoe UI;15.75;;"
+            "Font": ";15.75;;"
+          },
+          "ArgumentFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits"
+          },
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits"
+          },
+          "Area": {
+            "GridLinesHor": {
+              "Color": "Transparent",
+              "Visible": true
+            },
+            "GridLinesVert": {
+              "Color": "Transparent"
+            },
+            "InterlacingHor": {
+              "Color": "Transparent"
+            },
+            "InterlacingVert": {
+              "Color": "Transparent"
+            }
           }
         },
         "2": {
@@ -238,12 +276,6 @@
           "Name": "Chart3",
           "Guid": "435fd5d5406c421fb2a025c5107c7b88",
           "ClientRectangle": "0,200,600,400",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "Values": {
             "0": {
@@ -260,10 +292,44 @@
               "Label": "Date"
             }
           },
+          "TopN": {
+            "Mode": "None"
+          },
+          "DashboardInteraction": {
+            "Ident": "Chart",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab",
+            "AllowUserDrillDown": false
+          },
           "Title": {
             "Text": "Repeats",
-            "Visible": true,
-            "Font": "Segoe UI;15.75;;"
+            "Font": ";15.75;;"
+          },
+          "ArgumentFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits"
+          },
+          "ValueFormat": {
+            "Ident": "StiGeneralFormatService"
+          },
+          "Area": {
+            "GridLinesHor": {
+              "Color": "Transparent",
+              "Visible": true
+            },
+            "GridLinesVert": {
+              "Color": "Transparent"
+            },
+            "InterlacingHor": {
+              "Color": "Transparent"
+            },
+            "InterlacingVert": {
+              "Color": "Transparent"
+            }
           }
         },
         "3": {
@@ -271,13 +337,16 @@
           "Name": "Indicator1",
           "Guid": "f09215d6de794d859971fc12a960694c",
           "ClientRectangle": "0,40,600,160",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
+          "TopN": {
+            "Mode": "None"
+          },
+          "TextFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits, Abbreviation"
+          },
           "Value": {
             "Ident": "ValueIndicatorMeter",
             "Expression": "Sum(Visitors.Passers)",
@@ -285,8 +354,7 @@
           },
           "Title": {
             "Text": "Passers",
-            "Visible": true,
-            "Font": "Segoe UI;15.75;;"
+            "Font": ";15.75;;"
           },
           "Font": ";13;;",
           "Icon": "ManWoman"
@@ -296,13 +364,16 @@
           "Name": "Indicator2",
           "Guid": "b1b2bd55f8af4345abc88730aa998fb5",
           "ClientRectangle": "600,40,600,160",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
+          "TopN": {
+            "Mode": "None"
+          },
+          "TextFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits, Abbreviation"
+          },
           "Value": {
             "Ident": "ValueIndicatorMeter",
             "Expression": "Sum(Visitors.Visitors)",
@@ -310,8 +381,7 @@
           },
           "Title": {
             "Text": "Visitors",
-            "Visible": true,
-            "Font": "Segoe UI;15.75;;"
+            "Font": ";15.75;;"
           },
           "Font": ";13;;",
           "Icon": "ManWoman"

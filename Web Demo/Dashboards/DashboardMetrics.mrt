@@ -1,10 +1,10 @@
 {
-  "ReportVersion": "2018.3.1.0",
-  "ReportGuid": "d1e47ef33bc049899511700803db767f",
+  "ReportVersion": "2019.1.1.0",
+  "ReportGuid": "2ad64bf345c149228bbc98fd845de15c",
   "ReportName": "DashboardMetrics",
   "ReportAlias": "DashboardMetrics",
   "ReportCreated": "/Date(1531223785358+0300)/",
-  "ReportChanged": "/Date(1539004427124+0300)/",
+  "ReportChanged": "/Date(1542199635926+0300)/",
   "EngineVersion": "EngineV2",
   "CalculationMode": "Interpretation",
   "ReportUnit": "Inches",
@@ -107,19 +107,17 @@
             "Bottom": 0.0
           },
           "Border": ";;;;",
-          "Text": "<font face=\"Arial\" size=\"36\"><text-align=\"Center\">Metrics</text-align></font>"
+          "Text": "<font face=\"Arial\" size=\"36\"><text-align=\"Center\">Metrics</text-align></font>",
+          "Title": {
+            "Text": "Text",
+            "Visible": false
+          }
         },
         "1": {
           "Ident": "StiChartElement",
           "Name": "Chart1",
           "Guid": "7e6c524688684fab924d2f20e7565718",
           "ClientRectangle": "0,80,480,360",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "Values": {
             "0": {
@@ -148,10 +146,51 @@
               "Label": "Category"
             }
           },
+          "TopN": {
+            "Mode": "None"
+          },
           "Title": {
             "Text": "Chart",
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Visible": false
+          },
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
+          },
+          "ArgumentFormat": {
+            "Ident": "StiGeneralFormatService"
+          },
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits"
+          },
+          "XAxis": {
+            "Labels": {
+              "TextAlignment": "Right"
+            }
+          },
+          "YAxis": {
+            "Labels": {
+              "TextAlignment": "Right"
+            }
+          },
+          "Area": {
+            "GridLinesHor": {
+              "Color": "Transparent",
+              "Visible": true
+            },
+            "GridLinesVert": {
+              "Color": "Transparent"
+            },
+            "InterlacingHor": {
+              "Color": "Transparent"
+            },
+            "InterlacingVert": {
+              "Color": "Transparent"
+            }
           }
         },
         "2": {
@@ -159,12 +198,6 @@
           "Name": "Gauge1",
           "Guid": "251e22c2fb7f4cfbbadbf249e3cd5fd1",
           "ClientRectangle": "960,440,240,160",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "Type": "Linear",
           "Value": {
@@ -173,25 +206,22 @@
             "Label": "Total"
           },
           "Title": {
-            "Text": "Total Tasks",
-            "Visible": true,
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Text": "Total Tasks"
           },
-          "Font": ";13;;"
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
+          }
         },
         "3": {
           "Ident": "StiProgressElement",
           "Name": "Progress3",
           "Guid": "d8564b9c2bec42fcb888fa7b5c06026c",
           "ClientRectangle": "0,440,320,160",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
+          "TopN": {
+            "Mode": "None"
+          },
           "Value": {
             "Ident": "ValueProgressMeter",
             "Expression": "Sum(Tasks.Completed)",
@@ -203,10 +233,11 @@
             "Label": "Total"
           },
           "Title": {
-            "Text": "Completed Task",
-            "Visible": true,
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Text": "Completed Task"
+          },
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
           },
           "Font": ";13;;"
         },
@@ -215,13 +246,10 @@
           "Name": "Progress2",
           "Guid": "c9725b0db3f74c55b7ccc99c99c87c0d",
           "ClientRectangle": "640,440,320,160",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
+          "TopN": {
+            "Mode": "None"
+          },
           "Value": {
             "Ident": "ValueProgressMeter",
             "Expression": "Sum(Tasks.Tasksinprogress)",
@@ -233,10 +261,11 @@
             "Label": "Total"
           },
           "Title": {
-            "Text": "Tasks in Progress",
-            "Visible": true,
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Text": "Tasks in Progress"
+          },
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
           },
           "Font": ";13;;"
         },
@@ -245,13 +274,10 @@
           "Name": "Progress4",
           "Guid": "c68dbe0cb514423584712e28738819e5",
           "ClientRectangle": "320,440,320,160",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
+          "TopN": {
+            "Mode": "None"
+          },
           "Value": {
             "Ident": "ValueProgressMeter",
             "Expression": "Sum(Tasks.NotStartedTasks)",
@@ -263,10 +289,11 @@
             "Label": "Total"
           },
           "Title": {
-            "Text": "Not Started Tasks",
-            "Visible": true,
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Text": "Not Started Tasks"
+          },
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
           },
           "Font": ";13;;"
         },
@@ -275,12 +302,6 @@
           "Name": "ComboBox1",
           "Guid": "5861700de0f441b988d0e2a0d8d1de0a",
           "ClientRectangle": "0,40,1200,40",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "SelectionMode": "Multi",
           "NameMeter": {
@@ -299,12 +320,6 @@
           "Name": "Chart2",
           "Guid": "36c245adc5d04f8f968ae59dca1d44f8",
           "ClientRectangle": "480,80,720,360",
-          "Padding": {
-            "Left": 5.0,
-            "Top": 5.0,
-            "Right": 5.0,
-            "Bottom": 5.0
-          },
           "Border": ";;;;",
           "Values": {
             "0": {
@@ -333,10 +348,51 @@
               "Label": "Category"
             }
           },
+          "TopN": {
+            "Mode": "None"
+          },
           "Title": {
             "Text": "Chart",
-            "Font": ";11;;",
-            "HorAlignment": "Left"
+            "Visible": false
+          },
+          "Layout": {
+            "FullScreenButton": true,
+            "SaveButton": true
+          },
+          "ArgumentFormat": {
+            "Ident": "StiGeneralFormatService"
+          },
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits"
+          },
+          "XAxis": {
+            "Labels": {
+              "TextAlignment": "Right"
+            }
+          },
+          "YAxis": {
+            "Labels": {
+              "TextAlignment": "Right"
+            }
+          },
+          "Area": {
+            "GridLinesHor": {
+              "Color": "Transparent",
+              "Visible": true
+            },
+            "GridLinesVert": {
+              "Color": "Transparent"
+            },
+            "InterlacingHor": {
+              "Color": "Transparent"
+            },
+            "InterlacingVert": {
+              "Color": "Transparent"
+            }
           }
         }
       },

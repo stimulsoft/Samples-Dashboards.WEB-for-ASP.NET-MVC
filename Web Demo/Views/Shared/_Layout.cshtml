@@ -7,7 +7,7 @@
     @Styles.Render("~/Content/css")
 </head>
 <body>
-    <table class="main" cellpadding="0" cellspacing="0" border="0">
+    <table class="main" cellpadding="0" cellspacing="0" border="0" style="color:@ViewBag.ForeHtmlColor; background:@ViewBag.BackHtmlColor;">
         <tr>
             <td class="menu">
                 <h3>Dashboards Demo</h3>
@@ -18,7 +18,7 @@
                         foreach (string fileName in @ViewBag.FileNames)
                         {
                             var currentFileName = ViewContext.RouteData.Values["id"].ToString();
-                            @Html.ActionLink(fileName.Substring(9), "Dashboards", "View", new { id = fileName }, new { @class = currentFileName == fileName ? "current" : "" })
+                            @Html.ActionLink(fileName.Substring(9), "Dashboards", "View", new { id = fileName }, new { @class = currentFileName == fileName ? "current" : "", @style = "color:" + @ViewBag.ForeHtmlColor })
                         }
                     }
                 </div>
@@ -33,7 +33,7 @@
         <tr>
             <td class="link">
                 <div class="separator"></div>
-                <a href="https://www.stimulsoft.com/" target="_blank"><img class="link" alt="www.stimulsoft.com" border="0" src="/Images/hyperlink.png" /></a>
+                <a href="https://www.stimulsoft.com/" target="_blank" style="color:@ViewBag.ForeHtmlColor;">www.stimulsoft.com</a>
             </td>
         </tr>
     </table>
