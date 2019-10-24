@@ -21,7 +21,7 @@ namespace Web_Demo.Controllers
 
         public ActionResult GetReport(string id)
         {
-            var report = new StiReport();
+            var report = StiReport.CreateNewDashboard();
             report.Load(Server.MapPath($"~/Dashboards/{id}.mrt"));
 
             return StiMvcDesigner.GetReportResult(report);

@@ -32,6 +32,7 @@ table.main {
 td.menu {
     width: 270px;
     height: 100%;
+    vertical-align: top;
 }
 td.menu h3 {
     font-size: 16px;
@@ -54,26 +55,18 @@ td.menu a:hover {
     background: #3a9eff;
     color: white !important;
 }
-td.viewer {
-    background-color: #e8e8e8;
-    height: 100%;
-}
-td.menu,
-td.viewer {
-    vertical-align: top;
-}
 td.line {
-    width: 1px;
+    width: 5px;
 }
 td.link {
     text-align: center;
     vertical-align: bottom;
 }
-div.line {
-    width: 5px;
-}
 td.link a {
     display: inline-block;
     font-size: 16px;
     margin: 4px 0 11px 0;
+}
+td.viewer {
+    height: 100%;
 }

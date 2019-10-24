@@ -10,11 +10,8 @@ namespace Runtime_Dashboard_Creation.Helpers
     {
         public static StiReport CreateTemplate()
         {
-            var report = new StiReport();
-            report.Pages.Clear();
-
-            var dashboard = new StiDashboard();
-            report.Pages.Add(dashboard);
+            var report = StiReport.CreateNewDashboard();
+            var dashboard = report.Pages[0] as StiDashboard;
 
             var textElement = new StiTextElement();
             textElement.Left = 100;

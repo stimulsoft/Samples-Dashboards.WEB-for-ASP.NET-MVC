@@ -36,7 +36,7 @@ namespace Export_and_Print_Dashboard_from_Code.Controllers
         private StiReport GetDashboard()
         {
             var reportPath = Server.MapPath("~/Dashboards/DashboardChristmas.mrt");
-            var report = new StiReport();
+            var report = StiReport.CreateNewDashboard();
             report.Load(reportPath);
 
             return report;

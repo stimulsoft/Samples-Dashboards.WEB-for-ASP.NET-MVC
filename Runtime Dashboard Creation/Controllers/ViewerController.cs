@@ -11,7 +11,7 @@ namespace Runtime_Dashboard_Creation.Controllers
             return View();
         }
 
-        public ActionResult GetReport(string id)
+        public ActionResult GetReport()
         {
             var report = Helpers.Dashboard.CreateTemplate();
             return StiMvcViewer.GetReportResult(report);

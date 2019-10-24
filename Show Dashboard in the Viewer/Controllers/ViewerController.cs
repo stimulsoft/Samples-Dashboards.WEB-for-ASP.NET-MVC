@@ -20,10 +20,10 @@ namespace Show_Dashboard_in_the_Viewer.Controllers
             return View();
         }
 
-        public ActionResult GetReport(string id)
+        public ActionResult GetReport()
         {
-            // Create the report object
-            var report = new StiReport();
+            // Create the dashboard object
+            var report = StiReport.CreateNewDashboard();
 
             // Load dashboard template
             report.Load(Server.MapPath("~/Dashboards/DashboardChristmas.mrt"));

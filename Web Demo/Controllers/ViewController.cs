@@ -31,7 +31,7 @@ namespace Web_Demo.Controllers
             ViewBag.FileNames = fileNames;
 
             var fileName = RouteData.Values["id"].ToString();
-            var report = new StiReport();
+            var report = StiReport.CreateNewDashboard();
             report.Load(Server.MapPath($"~/Dashboards/{fileName}.mrt"));
 
             var dashboard = report.Pages[0] as StiDashboard;
@@ -44,7 +44,7 @@ namespace Web_Demo.Controllers
 
         public ActionResult GetReport(string id)
         {
-            var report = new StiReport();
+            var report = StiReport.CreateNewDashboard();
             report.Load(Server.MapPath($"~/Dashboards/{id}.mrt"));
 
             return StiMvcViewer.GetReportResult(report);

@@ -21,12 +21,12 @@ namespace Register_Data_for_Dashboard_Template.Controllers
             return View();
         }
 
-        public ActionResult GetReport(string id)
+        public ActionResult GetReport()
         {
-            // Create new report
-            var report = new StiReport();
+            // Create new dashboard
+            var report = StiReport.CreateNewDashboard();
 
-            // Load report template
+            // Load dashboard template
             report.Load(Server.MapPath("~/Dashboards/Dashboard.mrt"));
 
             // Load a JSON file
@@ -36,7 +36,7 @@ namespace Register_Data_for_Dashboard_Template.Controllers
             var json = StiJsonConnector.Get();
             var dataSet = json.GetDataSet(new StiJsonOptions(jsonBytes));
 
-            // Remove all connections from the report template
+            // Remove all connections from the dashboard template
             report.Dictionary.Databases.Clear();
 
             // Register DataSet object
