@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Demo", "Web Demo\Web Demo.csproj", "{1445C8E3-D7A6-41F9-92C0-9623172AE01B}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Register Data for Dashboard Template", "Register Data for Dashboard Template\Register Data for Dashboard Template.csproj", "{C0D02EE5-1BA4-4C82-B535-6EBA953F9386}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime Dashboard Creation", "Runtime Dashboard Creation\Runtime Dashboard Creation.csproj", "{B223B19F-D81C-4AE8-9D96-8F33B93C2544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the Dashboard Theme on the Website", "Using the Dashboard Theme on the Website\Using the Dashboard Theme on the Website.csproj", "{646B065E-8BC3-4F0C-90F5-619FA975B634}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B223B19F-D81C-4AE8-9D96-8F33B93C2544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B223B19F-D81C-4AE8-9D96-8F33B93C2544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B223B19F-D81C-4AE8-9D96-8F33B93C2544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646B065E-8BC3-4F0C-90F5-619FA975B634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646B065E-8BC3-4F0C-90F5-619FA975B634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646B065E-8BC3-4F0C-90F5-619FA975B634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646B065E-8BC3-4F0C-90F5-619FA975B634}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

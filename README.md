@@ -9,6 +9,7 @@ This repository has some examples (Visual Studio Projects) each in different fol
 * Register Data for Dashboard Template
 * Runtime Dashboard Creation
 * Show Dashboard in the Viewer
+* Using the Dashboard Theme on the Website
 * Web Demo
 
 They are all combined in a Visual Studio solution (.sln-file).
