@@ -45,7 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LibExcel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.3\lib\net45\LibExcel.dll</HintPath>
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.3.1\lib\net45\LibExcel.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.OData.Client, Version=7.5.4.30215, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -60,47 +60,47 @@
     <Reference Include="Microsoft.Spatial, Version=7.5.4.30215, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Spatial.7.5.4\lib\portable-net45+win8+wpa81\Microsoft.Spatial.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Base, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.3\lib\net45\Stimulsoft.Base.dll</HintPath>
+    <Reference Include="Stimulsoft.Base, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.3.1\lib\net45\Stimulsoft.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Web.2020.2.3\lib\net45\Stimulsoft.Dashboard.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Web.2020.3.1\lib\net45\Stimulsoft.Dashboard.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Drawing, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Web.2020.2.3\lib\net45\Stimulsoft.Dashboard.Drawing.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Drawing, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Web.2020.3.1\lib\net45\Stimulsoft.Dashboard.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Export, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Web.2020.2.3\lib\net45\Stimulsoft.Dashboard.Export.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Export, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Web.2020.3.1\lib\net45\Stimulsoft.Dashboard.Export.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Data, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.3\lib\net45\Stimulsoft.Data.dll</HintPath>
+    <Reference Include="Stimulsoft.Data, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.3.1\lib\net45\Stimulsoft.Data.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Data.OData, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <HintPath>..\packages\Stimulsoft.Data.OData.2020.1.1\lib\net45\Stimulsoft.Data.OData.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Map, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.3\lib\net45\Stimulsoft.Map.dll</HintPath>
+    <Reference Include="Stimulsoft.Map, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.3.1\lib\net45\Stimulsoft.Map.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.3\lib\net45\Stimulsoft.Report.dll</HintPath>
+    <Reference Include="Stimulsoft.Report, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.3.1\lib\net45\Stimulsoft.Report.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Check, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.3\lib\net45\Stimulsoft.Report.Check.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Check, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.3.1\lib\net45\Stimulsoft.Report.Check.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Helper, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.3\lib\net45\Stimulsoft.Report.Helper.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Helper, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.3.1\lib\net45\Stimulsoft.Report.Helper.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Mvc, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Web.2020.2.3\lib\net45\Stimulsoft.Report.Mvc.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Mvc, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2020.3.1\lib\net45\Stimulsoft.Report.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Web, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Web.2020.2.3\lib\net45\Stimulsoft.Report.Web.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Web, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2020.3.1\lib\net45\Stimulsoft.Report.Web.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.WebDesign, Version=2020.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Web.2020.2.3\lib\net45\Stimulsoft.Report.WebDesign.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.WebDesign, Version=2020.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2020.3.1\lib\net45\Stimulsoft.Report.WebDesign.dll</HintPath>
     </Reference>
     <Reference Include="Svg, Version=2.4.3.29446, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.3\lib\net45\Svg.dll</HintPath>
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.3.1\lib\net45\Svg.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -216,25 +216,53 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Dashboards\DashboardChristmas.mrt" />
+    <Content Include="Dashboards\DashboardCustomerServiceKPI.mrt" />
+    <Content Include="Dashboards\DashboardEducation.mrt" />
+    <Content Include="Dashboards\DashboardEmergencyKPI.mrt" />
     <Content Include="Dashboards\DashboardExchangeTenders.mrt" />
     <Content Include="Dashboards\DashboardFastFoodLanch.mrt" />
+    <Content Include="Dashboards\DashboardFinanceKPI.mrt" />
+    <Content Include="Dashboards\DashboardFinancesKPI.mrt" />
     <Content Include="Dashboards\DashboardFinancial.mrt" />
+    <Content Include="Dashboards\DashboardFitnessAndHealthStats.mrt" />
     <Content Include="Dashboards\DashboardGlobalInternetUsage.mrt" />
+    <Content Include="Dashboards\DashboardHospitalOverview.mrt" />
+    <Content Include="Dashboards\DashboardHospitalPerformance.mrt" />
+    <Content Include="Dashboards\DashboardInternalKPI.mrt" />
+    <Content Include="Dashboards\DashboardManufacturing.mrt" />
+    <Content Include="Dashboards\DashboardManufacturingKPI.mrt" />
+    <Content Include="Dashboards\DashboardMarketingKPI.mrt" />
+    <Content Include="Dashboards\DashboardMedical.mrt" />
     <Content Include="Dashboards\DashboardMetrics.mrt" />
     <Content Include="Dashboards\DashboardNascar.mrt" />
     <Content Include="Dashboards\DashboardOnlineStoreSales.mrt" />
     <Content Include="Dashboards\DashboardOpec.mrt" />
+    <Content Include="Dashboards\DashboardOperationsKPI.mrt" />
     <Content Include="Dashboards\DashboardOrderDetails.mrt" />
     <Content Include="Dashboards\DashboardOrders.mrt" />
+    <Content Include="Dashboards\DashboardPatientHealthKPI.mrt" />
+    <Content Include="Dashboards\DashboardPatientSatisfaction.mrt" />
     <Content Include="Dashboards\DashboardPopulationByState.mrt" />
     <Content Include="Dashboards\DashboardProducts.mrt" />
+    <Content Include="Dashboards\DashboardPublicHealthKPI.mrt" />
     <Content Include="Dashboards\DashboardRestaurantAttendanceTracking.mrt" />
+    <Content Include="Dashboards\DashboardRetailKPI.mrt" />
+    <Content Include="Dashboards\DashboardSaaSKPI.mrt" />
+    <Content Include="Dashboards\DashboardSaaSMetrics.mrt" />
+    <Content Include="Dashboards\DashboardSalesByCompanies.mrt" />
     <Content Include="Dashboards\DashboardSalesByMonth.mrt" />
     <Content Include="Dashboards\DashboardSalesOverview.mrt" />
     <Content Include="Dashboards\DashboardSalesPerfomance.mrt" />
     <Content Include="Dashboards\DashboardSalesStatistics.mrt" />
     <Content Include="Dashboards\DashboardSiteStatistics.mrt" />
+    <Content Include="Dashboards\DashboardSocialNetworksStatistics.mrt" />
+    <Content Include="Dashboards\DashboardStudentsKPI.mrt" />
+    <Content Include="Dashboards\DashboardSummary.mrt" />
+    <Content Include="Dashboards\DashboardSupportKPI.mrt" />
     <Content Include="Dashboards\DashboardTicketsStatistics.mrt" />
+    <Content Include="Dashboards\DashboardTrafficAnalytics.mrt" />
+    <Content Include="Dashboards\DashboardUniversityKPI.mrt" />
+    <Content Include="Dashboards\DashboardUserActivityStats.mrt" />
     <Content Include="Dashboards\DashboardVehicleProduction.mrt" />
     <Content Include="Dashboards\DashboardWebsiteAnalytics.mrt" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
