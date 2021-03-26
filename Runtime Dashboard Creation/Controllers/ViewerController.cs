@@ -13,8 +13,9 @@ namespace Runtime_Dashboard_Creation.Controllers
 
         public ActionResult GetReport()
         {
-            var report = Helpers.Dashboard.CreateTemplate();
-            return StiMvcViewer.GetReportResult(report);
+            var appPath = Server.MapPath("~/");
+            var dashboard = Helpers.Dashboard.CreateTemplate(appPath);
+            return StiMvcViewer.GetReportResult(dashboard);
         }
 
         public ActionResult ViewerEvent()

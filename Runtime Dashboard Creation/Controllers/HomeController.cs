@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Stimulsoft.Report.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -33,6 +34,13 @@ namespace Runtime_Dashboard_Creation.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Export()
+        {
+            var appPath = Server.MapPath("~/");
+            var dashboard = Helpers.Dashboard.CreateTemplate(appPath);
+            return StiMvcReportResponse.ResponseAsExcel2007(dashboard);
         }
     }
 }

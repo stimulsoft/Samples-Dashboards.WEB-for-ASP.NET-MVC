@@ -48,6 +48,12 @@ namespace Export_and_Print_Dashboard_from_Code.Controllers
             return StiMvcReportResponse.PrintAsPdf(report);
         }
 
+        public ActionResult PrintHtml()
+        {
+            var report = this.GetDashboard();
+            return StiMvcReportResponse.PrintAsHtml(report);
+        }
+
         public ActionResult ExportPdf()
         {
             var report = this.GetDashboard();
