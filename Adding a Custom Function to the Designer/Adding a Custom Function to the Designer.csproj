@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{646B065E-8BC3-4F0C-90F5-619FA975B634}</ProjectGuid>
+    <ProjectGuid>{901A0CB6-2CEA-4F8C-93C3-4D9F7102BB84}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Using_the_Dashboard_Theme_on_the_Website</RootNamespace>
-    <AssemblyName>Using_the_Dashboard_Theme_on_the_Website</AssemblyName>
+    <RootNamespace>Adding_a_Custom_Function_to_the_Designer</RootNamespace>
+    <AssemblyName>Adding_a_Custom_Function_to_the_Designer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -162,8 +162,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DesignerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ViewerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -181,10 +181,6 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Dashboards\DashboardChristmas.mrt" />
-    <Content Include="Dashboards\DashboardEmergencyKPI.mrt" />
-    <Content Include="Dashboards\DashboardExchangeTenders.mrt" />
-    <Content Include="Dashboards\DashboardFinancial.mrt" />
-    <Content Include="Dashboards\DashboardSummary.mrt" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -210,7 +206,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Viewer\Index.cshtml" />
+    <Content Include="Views\Designer\Index.cshtml" />
     <Content Include="Localization\ar.xml" />
     <Content Include="Localization\be.xml" />
     <Content Include="Localization\bg.xml" />
@@ -283,9 +279,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>56207</DevelopmentServerPort>
+          <DevelopmentServerPort>56208</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:56207/</IISUrl>
+          <IISUrl>http://localhost:56208/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

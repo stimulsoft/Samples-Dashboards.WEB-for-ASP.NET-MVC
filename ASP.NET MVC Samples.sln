@@ -5,19 +5,19 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Demo", "Web Demo\Web Demo.csproj", "{1445C8E3-D7A6-41F9-92C0-9623172AE01B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Dashboard in the Viewer", "Show Dashboard in the Viewer\Show Dashboard in the Viewer.csproj", "{2C9A340D-6998-4648-9119-FE1BFB3C1123}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showing a Dashboard in the Viewer", "Showing a Dashboard in the Viewer\Showing a Dashboard in the Viewer.csproj", "{2C9A340D-6998-4648-9119-FE1BFB3C1123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edit Dashboard in the Designer", "Edit Dashboard in the Designer\Edit Dashboard in the Designer.csproj", "{0421C152-F662-4756-ADA2-A45DF206E7D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editing a Dashboard in the Designer", "Editing a Dashboard in the Designer\Editing a Dashboard in the Designer.csproj", "{0421C152-F662-4756-ADA2-A45DF206E7D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export and Print Dashboard from Code", "Export and Print Dashboard from Code\Export and Print Dashboard from Code.csproj", "{484547FA-414E-472D-9709-D695231AAF2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exporting a Dashboard from Code", "Exporting a Dashboard from Code\Exporting a Dashboard from Code.csproj", "{484547FA-414E-472D-9709-D695231AAF2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Register Data for Dashboard Template", "Register Data for Dashboard Template\Register Data for Dashboard Template.csproj", "{C0D02EE5-1BA4-4C82-B535-6EBA953F9386}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registering a Data for the Dashboard", "Registering a Data for the Dashboard\Registering a Data for the Dashboard.csproj", "{C0D02EE5-1BA4-4C82-B535-6EBA953F9386}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime Dashboard Creation", "Runtime Dashboard Creation\Runtime Dashboard Creation.csproj", "{B223B19F-D81C-4AE8-9D96-8F33B93C2544}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating Dashboard at Runtime", "Creating Dashboard at Runtime\Creating Dashboard at Runtime.csproj", "{B223B19F-D81C-4AE8-9D96-8F33B93C2544}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the Dashboard Theme on the Website", "Using the Dashboard Theme on the Website\Using the Dashboard Theme on the Website.csproj", "{646B065E-8BC3-4F0C-90F5-619FA975B634}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Custom Function to the Designer", "Add Custom Function to the Designer\Add Custom Function to the Designer.csproj", "{901A0CB6-2CEA-4F8C-93C3-4D9F7102BB84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding a Custom Function to the Designer", "Adding a Custom Function to the Designer\Adding a Custom Function to the Designer.csproj", "{901A0CB6-2CEA-4F8C-93C3-4D9F7102BB84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
