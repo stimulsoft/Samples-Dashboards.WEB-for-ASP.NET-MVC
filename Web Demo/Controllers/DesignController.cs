@@ -22,7 +22,7 @@ namespace Web_Demo.Controllers
         public ActionResult GetReport(string id)
         {
             var report = StiReport.CreateNewDashboard();
-            report.Load(Server.MapPath($"~/Dashboards/{id}.mrt"));
+            report.Load(Server.MapPath($"/Content/Dashboards/{id}.mrt"));
 
             return StiMvcDesigner.GetReportResult(report);
         }

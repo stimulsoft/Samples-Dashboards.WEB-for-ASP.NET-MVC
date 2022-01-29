@@ -20,7 +20,7 @@ namespace Web_Demo.Controllers
 
         public ActionResult Dashboards()
         {
-            var dashboardFiles = Directory.GetFiles(Server.MapPath($"~/Dashboards"), "*.mrt");
+            var dashboardFiles = Directory.GetFiles(Server.MapPath($"/Content/Dashboards"), "*.mrt");
             var fileNames = new string[dashboardFiles.Length];
             var index = 0;
             foreach (var filePath in dashboardFiles)
@@ -32,7 +32,7 @@ namespace Web_Demo.Controllers
 
             var fileName = RouteData.Values["id"].ToString();
             var report = StiReport.CreateNewDashboard();
-            report.Load(Server.MapPath($"~/Dashboards/{fileName}.mrt"));
+            report.Load(Server.MapPath($"/Content/Dashboards/{fileName}.mrt"));
 
             var dashboard = report.Pages[0] as StiDashboard;
             ViewBag.ForeHtmlColor = ColorTranslator.ToHtml(dashboard != null ? StiDashboardStyleHelper.GetForeColor(dashboard) : Color.Black);
@@ -45,7 +45,7 @@ namespace Web_Demo.Controllers
         public ActionResult GetReport(string id)
         {
             var report = StiReport.CreateNewDashboard();
-            report.Load(Server.MapPath($"~/Dashboards/{id}.mrt"));
+            report.Load(Server.MapPath("/Content/Dashboards/" + id + ".mrt"));
 
             return StiMvcViewer.GetReportResult(report);
         }
