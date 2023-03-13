@@ -1,6 +1,7 @@
 # ASP.NET MVC C# samples for Stimulsoft Dashboards.WEB
 
-#### This repository contains the source code of the examples of usage Stimulsoft Dashboards.WEB product in the ASP.NET MVC applications, using C# code and HTML5 components.
+#### This repository contains the source code of the examples of usage Stimulsoft Dashboards.WEB product in the ASP.NET MVC applications, using C# code and HTML5 components. The product is fully compatible with .NET Framework 4.5.2, 4.6, 4.7, and 4.8 versions.
+
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
