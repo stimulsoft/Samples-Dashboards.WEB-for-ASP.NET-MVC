@@ -8,25 +8,28 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body style="background: @ViewBag.DashboardBackHtmlColor;">
-    <div class="navbar navbar-inverse navbar-fixed-top" style="background: @ViewBag.BackHtmlColor;">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background: @ViewBag.BackHtmlColor;">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Using the Dashboard Theme on the Website", "Index", "Home", new { area = "" }, new { @class = "navbar-brand", @style = "color: " + @ViewBag.ForeHtmlColor })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav" style="color: @ViewBag.ForeHtmlColor;">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @style = "color: " + @ViewBag.ForeHtmlColor })</li>
-                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @style = "color: " + @ViewBag.ForeHtmlColor })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @style = "color: " + @ViewBag.ForeHtmlColor })</li>
+            <a class="navbar-brand" href="@Url.Action("Index", "Home", new { area = "" })" style="color: @ViewBag.ForeHtmlColor">Using the Dashboard Theme on the Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Home", new { area = "" })" style="color: @ViewBag.ForeHtmlColor">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("About", "Home", new { area = "" })" style="color: @ViewBag.ForeHtmlColor">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Contact", "Home", new { area = "" })" style="color: @ViewBag.ForeHtmlColor">Contact</a>
+                    </li>
                 </ul>
-            </div>
+             </div>
         </div>
-    </div>
+    </nav>
+
     <div class="container body-content">
         @RenderBody()
         <hr />
